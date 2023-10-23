@@ -6,7 +6,7 @@ import Project from './pages/Project';
 import NotFound from './pages/NotFound';
 
 
-// This is ised to handle the update of the cache when deleting client (cf. ClientRow.jsx)
+// Used to handle update of cache when deleting client (cf. ClientRow.jsx)
 const cache = new InMemoryCache({
   typePolicies: {
     Query: {
